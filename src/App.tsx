@@ -16,7 +16,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<ContainerPosts/>} />
                 <Route path="/home" element={<Navigate to="/"/>} />
-                <Route path="/card" element={<RecipeCard/>} />
+                <Route path="/home/card" element={<RecipeCard/>} />
                 <Route path="/404" element={<h1>404 PAGE NOT FOUND</h1>}/>
                 <Route path="*" element={<Navigate to={'/404'} />} />
             </Routes>
