@@ -1,0 +1,7 @@
+.containerPost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    overflow-y: scroll;
+}
