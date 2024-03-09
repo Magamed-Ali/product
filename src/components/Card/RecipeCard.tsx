@@ -48,12 +48,12 @@ export default function RecipeCard() {
             <CardContent>
                 <Typography variant="h5" component="div">
                     {
-                        card.title.replace(/^./, card.title[0].toUpperCase())
+                        card.title
                     }
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     {
-                        card.body.replace(/^./, card.title[0].toUpperCase())
+                        card.body
                     }
                 </Typography>
             </CardContent>
