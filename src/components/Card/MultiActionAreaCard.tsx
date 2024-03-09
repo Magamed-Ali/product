@@ -46,7 +46,7 @@ export default function MultiActionAreaCard({item}: CardType) {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Link to="/home/card">
+                <Link to="/card">
                     <Button size="small" color="primary" onClick={() => addCard(item.id)}>
                         Share
                     </Button>
